@@ -1,9 +1,6 @@
-// Import React
 import React from "react";
 
 import { Heading, Slide, Text } from "spectacle";
-
-import { ReactComponent as TailwindLogo } from "../assets/tailwind.svg";
 
 const Slide2 = () => {
   return (

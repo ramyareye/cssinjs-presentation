@@ -7,7 +7,7 @@ const Slide3 = () => {
   return (
     <Slide>
       <Heading fontSize={35} textColor="secondary" caps>
-        Some Examples
+        Examples
       </Heading>
       <div
         style={{

@@ -5,16 +5,7 @@ import { Heading, Slide, Text } from "spectacle";
 const Slide6 = () => {
   return (
     <Slide transition={["zoom"]} bgColor="primary">
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          alignItems: "center",
-          flexDirection: "column",
-          justifyContent: "center",
-        }}
-      >
+      <div className="w-full h-full flex items-center flex-col justify-center">
         <Heading size={1} fit caps lineHeight={1} textColor="secondary">
           “CSS-in-JS”
         </Heading>

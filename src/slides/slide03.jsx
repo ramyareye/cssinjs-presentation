@@ -7,15 +7,7 @@ import tweet1 from "../assets/tweet1.png";
 const Slide3 = () => {
   return (
     <Slide>
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
+      <div className="w-full h-full flex items-center justify-around">
         <Heading fontSize={30} textColor="secondary" caps>
           Alert 1: <br />
           this is a never ending topic!

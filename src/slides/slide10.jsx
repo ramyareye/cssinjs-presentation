@@ -11,15 +11,7 @@ const Slide3 = () => {
       <Heading fontSize={35} textColor="secondary" caps>
         What's up with libraries?
       </Heading>
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
+      <div className="w-full h-full flex items-center flex-col justify-center">
         <Image src={chart1} width={1200} />
       </div>
     </Slide>

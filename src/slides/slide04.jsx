@@ -7,16 +7,7 @@ import team1 from "../assets/team1.png";
 const Slide4 = () => {
   return (
     <Slide>
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          alignItems: "center",
-          flexDirection: "column",
-          justifyContent: "center",
-        }}
-      >
+      <div className="w-full h-full flex items-center flex-col justify-center">
         <Heading fontSize={30} textColor="secondary" caps>
           Alert 2: <br />
           it's hard to find people with same interest!
