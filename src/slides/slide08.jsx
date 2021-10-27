@@ -10,15 +10,7 @@ const Slide8 = () => {
       <Heading size={4} textColor="secondary" caps>
         Comparison with CSS!
       </Heading>
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-        }}
-      >
+      <div className="w-full h-full flex items-center flex-col justify-center">
         <Image src={compare1} width={800} />
       </div>
     </Slide>
