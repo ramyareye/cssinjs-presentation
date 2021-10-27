@@ -9,15 +9,7 @@ const Slide3 = () => {
       <Heading textColor="secondary" caps>
         Tailwind CSS
       </Heading>
-      <div
-        style={{
-          width: "100%",
-          height: "100%",
-          textAlign: "center",
-        }}
-      >
-        <Image src={tweet1} height={600} />
-      </div>
+      <Image src={tweet1} style={{ height: "60%", margin: "auto" }} />
     </Slide>
   );
 };
