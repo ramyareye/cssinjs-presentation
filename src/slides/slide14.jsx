@@ -10,7 +10,9 @@ const Slide3 = () => {
         Tailwind CSS
       </Heading>
       <Text fontSize={35} textAlign="center">
-        Rapidly build modern websites without ever leaving your HTML.
+        <div className="cursor-pointer">
+          Rapidly build modern websites without ever leaving your HTML.
+        </div>
       </Text>
       <div
         style={{
